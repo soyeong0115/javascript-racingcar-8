@@ -7,6 +7,7 @@ class App {
 
     try {
       const carNames = await inputController.getCarNames();
+      const tryCount = await inputController.getTryCount();
 
     } catch(error) {
       await outputView.printMessage(error.message);
