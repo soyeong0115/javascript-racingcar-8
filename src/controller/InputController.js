@@ -1,7 +1,7 @@
 import inputView from "../view/InputView.js"
 import { SYSTEM_MESSAGE } from "../constants/message.js"
 import { parseCarNames } from "../utils/parser.js";
-import { validateCarNames } from "../utils/InputValidator.js";
+import { validateCarNames } from "../utils/CarNameValidator.js";
 import { validateTryCount } from "../utils/TryCountValidator.js"
 
 class InputController {
