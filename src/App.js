@@ -13,7 +13,7 @@ class App {
       await gameController.startGame();
     } catch(error) {
       await outputView.printMessage(error.message);
-      return;
+      throw new Error(error.message);
     }
   }
 }
