@@ -20,7 +20,7 @@ export const validateTryCount = (input) => {
 
     // [예외] 0 또는 음수를 입력했을 경우
     if (count <= 0) {
-        throw new Error(ERROR_MESSAGE.TTRY_COUNT_LESS_THAN_ZERO);
+        throw new Error(ERROR_MESSAGE.TRY_COUNT_LESS_THAN_ZERO);
     }
 
     return count;
